@@ -1,8 +1,8 @@
 {
-  "name": "zkproof_voting_dapp",
+  "name": "mimc",
   "version": "1.0.0",
-  "description": "# Voting dApp with ZKP",
-  "main": "index.js",
+  "description": "",
+  "main": "generate_big_numbers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "snarkjs": "^0.7.4"
+    "ethers": "^5.7.2"
   }
 }
