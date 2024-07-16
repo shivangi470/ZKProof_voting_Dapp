@@ -21,4 +21,8 @@ snarkjs zkey contribute setup_0000.zkey setup_final.zkey  -v
 7. snarkjs zkey  verify circuit.r1cs ceremony_final.ptau  setup_final.zkey  -v
 8. snarkjs groth16 fullprove input.json circuit_js/circuit.wasm setup_final.zkey proof.json public.json
 9. 9.snarkjs zkey export solidityverifier setup_final.zkey verifier.sol
+
+10. remix command
+     snarkjs zkey export soliditycalldata public.json proof.json
+
     
